@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>
+                Job Application
+                <span class="tiltle_small">
+                    (Web)
+                </span>
+            </h1>
+            <form>
+                <div class="form_container">
+                    <div class="form_control">
+                        First Name:<input type="text" name="first_name" id="first_name" placeholder="First Name...">
+                    </div>
+                    <div class="form_control">
+                        Last Name:<input type="text" name="last_name" id="last_name" placeholder="Last Name...">
+                    </div>
+                    <div class="form_control">
+                        Email:<input type="email" name="email" id="email" placeholder="Your Email...">
+                    </div>
+                    <div class="form_control">
+                        <label>
+                            Job Role
+                        </label>
+                        <select name="job_role" id="job_role">
+                        <option>
+                            Select Job Role
+                        </option>
+                        <option value="frontend">Frontend Developer</option>
+                        <option value="backend">Backend Developer</option>
+                        <option value="full stack">Full Stack Web Developer</option>
+                        <option value="ui ux">UI UX</option>
+                        <option value="cloud">Cloud Engineer</option>
+                        <option value="sde1">SDE-1</option>
+                        <option value="sde2">SDE-2</option>
+                        <option value="sde3">SDE-3</option>
+                        </select>
+                    </div>
+                    <div class="textarea_control">
+                        Address:<textarea cols="50" rows="4" placeholder="Enter Address..."></textarea>
+                        <div class="form_control"></div>
+                        Pincode: <input type="number" placeholder="Enter Pincode here...">
+                    </div>
+                    <div class="form_control">
+                        Date: <input type="date">
+                    </div>
+                    <div class="form_control">
+                        Upload Your CV: <input type="file">
+                    </div>
+                    <div class="button_container">
+                        <button type="submit">Apply Now</button>
+                    </form>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
